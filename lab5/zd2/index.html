@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наш Город — Новостной портал</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo">
+                <h1>Наш Город</h1>
+                <span>Новости. Люди. События.</span>
+            </div>
+            
+            <form class="search-form" action="#" method="get">
+                <label for="search-input" class="visually-hidden">Поиск по сайту</label>
+                <input type="search" id="search-input" name="q" placeholder="Найти новость...">
+                <button type="submit">Найти</button>
+            </form>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="#" class="active">Главная</a></li>
+            <li><a href="#">Общество</a></li>
+            <li><a href="#">Экономика</a></li>
+            <li><a href="#">Культура</a></li>
+            <li><a href="#">Спорт</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        
+        <section class="hero-section" id="hero">
+            <article class="hero-article">
+                <figure class="hero-figure">
+                    <img src="images/hero.jpg" alt="Новый городской парк с велодорожками">
+                    <figcaption>Фото: Пресс-служба администрации</figcaption>
+                </figure>
+                <div class="hero-text">
+                    <span class="badge">Главное</span>
+                    <h2>В центре города открылся новый эко-парк</h2>
+                    <p class="meta">Опубликовано: <time datetime="2025-05-20">20 мая 2025</time></p>
+                    <p>Масштабный проект благоустройства завершен раньше срока. Теперь жители могут пользоваться современными зонами отдыха, спортивными площадками и безопасными велодорожками.</p>
+                    <a href="#" class="btn-primary">Читать полностью</a>
+                </div>
+            </article>
+        </section>
+
+        <div class="content-grid">
+            <section class="news-feed">
+                <h2>Последние события</h2>
+                <div class="cards-container">
+                    
+                    <article class="card">
+                        <figure>
+                            <img src="images/news1.jpg" alt="Открытие новой школы">
+                        </figure>
+                        <div class="card-body">
+                            <span class="tag tag-society">Общество</span>
+                            <h3>Новая школа приняла первых учеников</h3>
+                            <time datetime="2025-05-19">19 мая 2025</time>
+                            <p>Современное здание оснащено по последнему слову техники.</p>
+                            <a href="#" class="read-more">Подробнее →</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <figure>
+                            <img src="images/news2.jpg" alt="Фестиваль искусств">
+                        </figure>
+                        <div class="card-body">
+                            <span class="tag tag-culture">Культура</span>
+                            <h3>Фестиваль уличного искусства стартует в субботу</h3>
+                            <time datetime="2025-05-18">18 мая 2025</time>
+                            <p>Художники из 10 стран украсят фасады исторических зданий.</p>
+                            <a href="#" class="read-more">Подробнее →</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <figure>
+                            <img src="images/news3.jpg" alt="Спортивные соревнования">
+                        </figure>
+                        <div class="card-body">
+                            <span class="tag tag-sport">Спорт</span>
+                            <h3>Городская команда выиграла чемпионат области</h3>
+                            <time datetime="2025-05-17">17 мая 2025</time>
+                            <p>Решающий матч завершился со счетом 3:1 в пользу наших спортсменов.</p>
+                            <a href="#" class="read-more">Подробнее →</a>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <aside class="sidebar">
+                <section class="popular-news">
+                    <h3>Популярное за неделю</h3>
+                    <ol class="popular-list">
+                        <li><a href="#">Как изменится схема движения транспорта</a></li>
+                        <li><a href="#">Интервью с главным архитектором города</a></li>
+                        <li><a href="#">Где найти лучшие кофейни: гид по центру</a></li>
+                        <li><a href="#">Расписание ярмарок выходного дня</a></li>
+                    </ol>
+                </section>
+
+                <section class="subscribe-box">
+                    <h3>Подписка на рассылку</h3>
+                    <p>Главные новости каждое утро</p>
+                    <form action="#" method="post">
+                        <label for="email-subscribe" class="visually-hidden">Ваш e-mail</label>
+                        <input type="email" id="email-subscribe" name="email" placeholder="example@mail.ru" required>
+                        <button type="submit" class="btn-accent">Подписаться</button>
+                    </form>
+                </section>
+            </aside>
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h4>Наш Город</h4>
+                <p>Независимый новостной портал о жизни города.</p>
+                <address>
+                    г. Йошкар-Ола, ул. Пушкина, д. 10, оф. 5<br>
+                    Тел: <a href="tel:+74951234567">+7 (800) 555-35-35</a><br>
+                    E-mail: <a href="mailto:info@nashgorod.ru">info@nashgorod.ru</a>
+                </address>
+            </div>
+            <div class="footer-links">
+                <h4>Разделы</h4>
+                <ul>
+                    <li><a href="#">О проекте</a></li>
+                    <li><a href="#">Редакция</a></li>
+                    <li><a href="#">Реклама</a></li>
+                    <li><a href="#">Политика конфиденциальности</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Новостной портал «Наш Город». Все права защищены.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
