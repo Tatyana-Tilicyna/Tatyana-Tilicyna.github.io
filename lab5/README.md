@@ -31,4 +31,4 @@
 
 ## Опубликованная версия
 
-https://Tatyana-Tilicyna.github.io/lab-5/zd2/
+https://Tatyana-Tilicyna.github.io/lab5/zd2/
